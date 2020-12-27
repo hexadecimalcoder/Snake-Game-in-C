@@ -1,3 +1,27 @@
+//	  __             _              
+//	 / _\_ __   __ _| | _____       
+//	 \ \| '_ \ / _\`| |/ / _ \      
+//	 _\ \ | | | (_| |   <  __/      
+//	 \__/_| |_|\__,_|_|\_\___|      
+//	       ___                      
+//	      / _ \__ _ _ __ ___   ___  
+//	     / /_\/ _\`| '_ \`_ \ / _ \ 
+//	    / /_\\ (_| | | | | | |  __/ 
+//	   \____/\__,_|_| |_| |_|\___| 
+//
+//SNAKE GAME USING C WITHOUT GRAPHICS LIBRARY
+//====================================================================================================
+//This a snake game developed using C language and no graphics library. This code is written in C using Dev C++ IDE.
+//***Using Gcc compiler only. Turbo C will not work. This a snake game developed using C language and no graphics library. Tested in Windows 8, 8.1, 10.
+//
+//Last Update 28-12-2020
+//
+//::::|| @AUTHOR - SOUHARDHYA PAUL [HEXADECIMALCODER]
+//::::|| ["https://github.com/hexadecimalcoder"]
+//::::|| ["https://www.linkedin.com/in/hexadecimalcoder/"]
+//====================================================================================================
+
+
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h> 
