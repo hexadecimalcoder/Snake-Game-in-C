@@ -16,9 +16,9 @@
 //
 //Last Update 28-12-2020
 //
-//::::|| @AUTHOR - SOUHARDHYA PAUL [HEXADECIMALCODER]
-//::::|| ["https://github.com/hexadecimalcoder"]
-//::::|| ["https://www.linkedin.com/in/hexadecimalcoder/"]
+//::::|| [@AUTHOR - SOUHARDHYA PAUL [XEVOZEN]]
+//::::|| [@GITHUB- "https://github.com/xevozen"]
+//::::|| [@LINKEDIN- "https://www.linkedin.com/in/xevozen/"]
 //====================================================================================================
 
 
@@ -114,6 +114,13 @@ int main()
 		check(&row, &column, canvas);
 		if(flag==2)
 		{
+			for(flag=1;flag<=3;flag++)
+			{
+				system("cls");
+				delay(300);	
+				display(canvas);
+				delay(200);
+			}
 			break;
 		}
 		display(canvas);
@@ -205,8 +212,7 @@ int key_pressed(int key)
 		if(ch==119)
 		{
 			if(key==0||key==2)
-			{
-			}
+			{}
 			else
 			{
 				return 0;	//up
@@ -215,9 +221,7 @@ int key_pressed(int key)
 		if(ch==97)
 		{
 			if(key==1||key==3)
-			{
-
-			}
+			{}
 			else
 			{
 				return 1;	//left
@@ -226,9 +230,7 @@ int key_pressed(int key)
 		if(ch==115)
 		{
 			if(key==0||key==2)
-			{
-
-			}
+			{}
 			else
 			{
 				return 2;	//down
@@ -237,9 +239,7 @@ int key_pressed(int key)
 		if(ch==100)
 		{
 			if(key==1||key==3)
-			{
-
-			}
+			{}
 			else
 			{
 				return 3;	//right
@@ -387,9 +387,7 @@ void body_update(int *row, int *column, int body[snk_max_len][2], char canvas[cn
 void check(int *row, int *column, char game[cnv_row][cnv_col])
 {
 	if(flag==2)
-	{
-		
-	}
+	{}
 	else if((food_y==*row)&&(food_x==*column))
 	{
 		flag=1;
@@ -404,4 +402,4 @@ void delay(int milli_seconds)
 {  
 	clock_t start_time = clock();
 	while (clock() < start_time + milli_seconds); 
-} 
+}
